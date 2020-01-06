@@ -78,7 +78,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #183026;
+		background-color: #90CAF9;
 		background-image: url("images/sky.png"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
