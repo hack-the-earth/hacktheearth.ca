@@ -78,7 +78,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #90CAF9;
+		 /*background-color: whitesmoke; */
 		background-image: url("images/sky.png"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -92,6 +92,7 @@ input, select, textarea {
 		color: #3a3939;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
+		perspective:2px;
 	}
 
 		body.is-scroll {
@@ -2636,3 +2637,9 @@ input, select, textarea {
 			}
 
 	}
+
+/* Custom styles start here */
+
+.title-text {
+	font-size: 4em!important;
+}
