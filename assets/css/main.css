@@ -2643,3 +2643,28 @@ input, select, textarea {
 .title-text {
 	font-size: 4em!important;
 }
+
+.flex-grid {
+	justify-content: center;
+}
+
+.flex-grid, .flex-grid-thirds{
+	display: flex;
+}
+
+.flex-grid-thirds {
+	justify-content: space-between;
+}
+
+.flex-grid-thirds, .col-thirds {
+	width: 30%;
+}
+
+.col .col-thirds{
+	flex: 1;
+}
+
+.sponsor-img {
+	width: 100%;
+	max-width: 300px;
+}
