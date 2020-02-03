@@ -2645,7 +2645,8 @@ input, select, textarea {
 }
 
 .flex-grid {
-	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .flex-grid, .flex-grid-thirds{
@@ -2664,7 +2665,17 @@ input, select, textarea {
 	flex: 1;
 }
 
-.sponsor-img {
+.sponsor-img-s {
+	width:100%;
+	max-width: 200px;
+}
+
+.sponsor-img-m {
 	width: 100%;
 	max-width: 300px;
+}
+
+.sponsor-img-l {
+	width: 100%;
+	max-width: 400px;
 }
