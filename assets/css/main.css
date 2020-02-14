@@ -2668,14 +2668,23 @@ input, select, textarea {
 .sponsor-img-s {
 	width:100%;
 	max-width: 200px;
+	padding: 5px;
 }
 
 .sponsor-img-m {
 	width: 100%;
 	max-width: 300px;
+	padding: 5px;
 }
 
 .sponsor-img-l {
 	width: 100%;
 	max-width: 400px;
+	padding: 5px;
+}
+
+.sponsor-img-xl {
+	width: 100%;
+	max-width: 600px;
+	padding: 5px;
 }
