@@ -2644,6 +2644,11 @@ input, select, textarea {
 	font-size: 4em!important;
 }
 
+div.col a {
+    border-bottom: none; !important
+}
+
+/* Sponsor image grid */
 .flex-grid {
 	justify-content: space-around;
 	align-items: center;
@@ -2685,6 +2690,6 @@ input, select, textarea {
 
 .sponsor-img-xl {
 	width: 100%;
-	max-width: 600px;
+	max-width: 500px;
 	padding: 5px;
 }
