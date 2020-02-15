@@ -98,7 +98,6 @@
 
 
 			<!-- Speakers -->
-
 			<article class="container box style2">
 				<header>
 					<h2>Guest Speakers (Coming Soon!)</h2>
@@ -119,65 +118,6 @@
 					</div>
 				</div>
 
-			</article>
-
-			<!-- FAQ -->
-			<article class="container box style3">
-				<header>
-					<h2>Frequently Asked Questions</h2>
-				</header>
-
-				<section>
-					<header>
-						<button class="accordion">Will there be food supplied?</button>
-						<div class="panel">
-							<p>Yes. Breakfast, lunch, and dinner will be provided. In addition, we will accomodate for most dietary restrictions. Please contact us if you have any concerns</p>
-						</div>					
-					</header>
-
-					<header>
-						<button class="accordion">How do I get to Hack The Earth?</button>
-						<div class="panel">
-							<p>Direcions to the event location will be available shortly! Stay tuned for more!</p>
-						</div>					
-					</header>
-
-					<header>
-						<button class="accordion">What kind of hardware will be provided at the event?</button>
-						<div class="panel">
-							<p>There will be a makerspace at the event. More details coming soon!</p>
-						</div>					
-					</header>
-					<header>
-						<button class="accordion">Who can participate?</button>
-						<div class="panel">
-							<p>Both high school students and university students are eligible to participate.</p>
-						</div>					
-					</header>
-					<header>
-						<button class="accordion">How many people can be on a team?</button>
-						<div class="panel">
-							<p>You may participate in teams of 1 - 4.</p>
-						</div>					
-					</header>
-						<script>
-						var acc = document.getElementsByClassName("accordion");
-						var i;
-
-						for (i = 0; i < acc.length; i++) {
-						acc[i].addEventListener("click", function() {
-							this.classList.toggle("active");
-							var panel = this.nextElementSibling;
-							if (panel.style.maxHeight) {
-							panel.style.maxHeight = null;
-							} else {
-							panel.style.maxHeight = panel.scrollHeight + "px";
-							} 
-						});
-						}
-					</script>
-				</section>
-				<p>If we missed your question, please reach out to us at <a href="mailto:hello@hacktheearth.ca">hello@hacktheearth.ca</a>.</p>
 			</article>
 
 		<!-- Sponsors/Partners/Judges -->
@@ -208,7 +148,7 @@
 
 				-->
 				<div class="col">
-					<img class="sponsor-img-xl" src="images/fundedbygovcan.png">
+					<a href="https://www.risingyouth.ca/"><img class="sponsor-img-xl" src="images/fundedbygovcan.png"></a>
 				</div>
 			</div>
 			<header>
@@ -232,6 +172,65 @@
 				<!--<div class="col">-->
 					<!--<img class="sponsor-img-l" src="">-->
 				<!--</div>-->
+		</article>
+
+		<!-- FAQ -->
+		<article class="container box style3">
+			<header>
+				<h2>Frequently Asked Questions</h2>
+			</header>
+
+			<section>
+				<header>
+					<button class="accordion">Will there be food supplied?</button>
+					<div class="panel">
+						<p>Yes. Breakfast, lunch, and dinner will be provided. In addition, we will accomodate for most dietary restrictions. Please contact us if you have any concerns</p>
+					</div>
+				</header>
+
+				<header>
+					<button class="accordion">How do I get to Hack The Earth?</button>
+					<div class="panel">
+						<p>Direcions to the event location will be available shortly! Stay tuned for more!</p>
+					</div>
+				</header>
+
+				<header>
+					<button class="accordion">What kind of hardware will be provided at the event?</button>
+					<div class="panel">
+						<p>There will be a makerspace at the event. More details coming soon!</p>
+					</div>
+				</header>
+				<header>
+					<button class="accordion">Who can participate?</button>
+					<div class="panel">
+						<p>Both high school students and university students are eligible to participate.</p>
+					</div>
+				</header>
+				<header>
+					<button class="accordion">How many people can be on a team?</button>
+					<div class="panel">
+						<p>You may participate in teams of 1 - 4.</p>
+					</div>
+				</header>
+				<script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.maxHeight) {
+                                panel.style.maxHeight = null;
+                            } else {
+                                panel.style.maxHeight = panel.scrollHeight + "px";
+                            }
+                        });
+                    }
+				</script>
+			</section>
+			<p>If we missed your question, please reach out to us at <a href="mailto:hello@hacktheearth.ca">hello@hacktheearth.ca</a>.</p>
 		</article>
 		<!-- Contact -->
 		<!--
