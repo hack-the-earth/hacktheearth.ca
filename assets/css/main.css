@@ -2648,6 +2648,10 @@ div.col a {
     border-bottom: none; !important
 }
 
+.about-paragraph {
+	text-align: justify;
+}
+
 /* Sponsor image grid */
 .flex-grid {
 	justify-content: space-around;
