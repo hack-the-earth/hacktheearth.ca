@@ -2646,7 +2646,7 @@ input, select, textarea {
 }
 
 div.col a {
-    border-bottom: none; !important
+    border-bottom: none !important;
 }
 
 .about-paragraph {
