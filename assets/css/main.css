@@ -2000,7 +2000,7 @@ input, select, textarea {
 
 		#header header {
 			display: inline-block;
-			padding: 0 0 4.5em 0;
+			padding: 0 0 3.3em 0;
 		}
 
 			#header header h1 {
@@ -2700,4 +2700,10 @@ div.col a {
 	width: 100%;
 	max-width: 500px;
 	padding: 5px;
+}
+
+.sponsor-img-xxl {
+	width:100%;
+	max-width: 700px;
+	padding:5px;
 }
